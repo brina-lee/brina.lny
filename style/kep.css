@@ -15,27 +15,25 @@
 
 .nav_items {
     display: flex;
-    font-size: 15px;
     margin-left: auto;
-    margin-right: 25px;
+    margin-right: 20px;
 }
 
 .nav_item {
     margin-left: 10px;
 }
 
-.main1_title {
+.kep_main1_title {
     text-align: center;
     font-size: 20px;
 }
 
-.main1_subtitle {
+.kep_main1_subtitle {
     text-align: center;
     font-size: 15px;
-    font-style: italic;
 }
 
-.main1_contents {
+.kep_main1_contents {
     font-size: 10px;
 }
 
