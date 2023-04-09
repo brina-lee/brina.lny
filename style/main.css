@@ -268,7 +268,7 @@ header {
     max-width: 100%
 }
 
-.project > no_dot {
+.no_dot {
     list-style-type: none;
   }
 
