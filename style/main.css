@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/*기본 색상*/
+/*---------------------------기본 색상---------------------------*/
 :root {
     --main-color: #000000;
     --accent-color: #000000;
@@ -11,7 +11,7 @@
     --middle-width: 800px;
 }
 
-/*기본 설정:페이지 전체*/
+/*---------------------------기본 설정:페이지 전체---------------------------*/
 body {
     height: 100vh;
     margin: 0;
@@ -24,7 +24,7 @@ body {
   }
 
  
-/*conA: 히어로이미지*/
+/*---------------------------conA: 히어로이미지---------------------------*/
 .conA {
     display: flex;
     align-items: center;
@@ -87,7 +87,7 @@ body {
     }
 }
 
-/*footer*/
+/*---------------------------footer---------------------------*/
 footer {
     color: #ffffff;
     color: var(--text-bright-color);  
@@ -134,7 +134,7 @@ footer .container {
     font-size: 14px;
 }
 
-/* footerB: 푸터 메뉴*/
+/*---------------------------footerB: 푸터 메뉴---------------------------*/
 .footB div {
     margin-bottom: 20px;
 }
@@ -176,7 +176,7 @@ footer .container {
     }
 }
 
-/*footerC: 저작권*/
+/*---------------------------footerC: 저작권---------------------------*/
 .footC {
     font-size: 12px;
     text-align: center;
@@ -185,7 +185,7 @@ footer .container {
     margin-bottom: 0;
 }
 
-/*header*/
+/*---------------------------header---------------------------*/
 header {
     position: absolute;
     top: 0;
@@ -200,7 +200,7 @@ header {
     border-bottom: solid 1px var(--gray-color);
 }
 
-/*hearderA: 사이트 이름*/
+/*---------------------------hearderA: 사이트 이름---------------------------*/
 .headA {
     display: inline-block;
     line-height: 40px;
@@ -213,7 +213,7 @@ header {
 }
 
 
-/*headerB: 내비게이션 메뉴*/
+/*---------------------------headerB: 내비게이션 메뉴---------------------------*/
 .headB ul {
     margin: 0;
     padding: 0;
@@ -243,7 +243,7 @@ header {
     }
 }
 
-/*Project*/
+/*---------------------------Project---------------------------*/
 .project .container {
     padding: 30px 10px;
     max-width: 600px;
@@ -274,12 +274,9 @@ header {
 }
 
 .project table {
-    width: 100%;
+    width: 70%;
     border: 1px solid #000000;
     border-collapse: collapse;
-    overflow-x: auto;
-    width: 100%;
-    min-width: 500px;
     font-size: 11px;
 }
 
@@ -288,7 +285,7 @@ header {
     padding: 10px;
 }
     
-/*Profile*/
+/*---------------------------Profile---------------------------*/
 .profile {
     margin-left: 10px;
     margin-right: 10px;
