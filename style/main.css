@@ -248,7 +248,7 @@ header {
 }
 
 .project h1 {
-    padding-left: 0.5rem;
+    padding-left: 0.2rem;
     border-left: solid 0.75rem #000000;
     border-left: solid 0.75rem var(--accent-color);
     font-size: 2rem;
@@ -268,7 +268,7 @@ header {
     max-width: 100%
 }
 
-.project .no_dot {
+.project > no_dot {
     list-style-type: none;
   }
 
