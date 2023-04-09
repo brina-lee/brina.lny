@@ -292,6 +292,11 @@ header {
     margin-bottom: 20px;
     padding: 20px;
 }
+
+.profile .container {
+    padding: 0px;
+}
+
 .profiles {
     margin-top: 20px;
     margin-bottom: 20px;
