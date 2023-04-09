@@ -23,9 +23,6 @@ body {
     padding: 0;
   }
 
-table {
-    border: 1px solid #000000;
-}
  
 /*conA: 히어로이미지*/
 .conA {
@@ -262,7 +259,7 @@ header {
     font-size: 2rem;
 }
 
-.project h5 {
+.project h6 {
     font-size: 1rem;
     line-height: 2;
 }
@@ -276,6 +273,16 @@ header {
     max-width: 100%
 }
 
+.project table {
+    width: 100%;
+    border: 1px solid #000000;
+    border-collapse: collapse;
+}
+
+.project th, td {
+    border: 1px solid #000000;
+}
+    
 /*Profile*/
 .profile {
     margin-left: 10px;
