@@ -86,7 +86,7 @@ body {
 footer {
     color: #ffffff;
     color: var(--text-bright-color);  
-    background-color: #2b5566;
+    background-color: #000000;
     background-color: var(--dark-main-coclor);
 }
 
@@ -249,9 +249,14 @@ header {
 
 .project h1 {
     padding-left: 0.5rem;
-    border-left: solid 0.75rem #bf6a7a;
+    border-left: solid 0.75rem #000000;
     border-left: solid 0.75rem var(--accent-color);
     font-size: 2rem;
+}
+
+.project h3 {
+    font-size: 1.5rem;
+    line-height: 2;
 }
 
 .project p {
