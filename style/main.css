@@ -2,11 +2,11 @@
 
 /*기본 색상*/
 :root {
-    --main-color: #5d9ab2;
-    --accent-color: #bf6a7a;
-    --dark-color: #2b5566;
+    --main-color: #000000;
+    --accent-color: #000000;
+    --dark-color: #000000;
     --text-bright-color: #ffffff;
-    --dark-main-coclor: #A29AC4;
+    --dark-main-coclor: #000000;
     --gray-color: #dddddd;
     --middle-width: 800px;
 }
@@ -254,8 +254,8 @@ header {
     font-size: 2rem;
 }
 
-.project h3 {
-    font-size: 1.5rem;
+.project h5 {
+    font-size: 1rem;
     line-height: 2;
 }
 
