@@ -277,10 +277,14 @@ header {
     width: 100%;
     border: 1px solid #000000;
     border-collapse: collapse;
+    overflow-x: auto;
+    width: 100%;
+    min-width: 500px;
 }
 
 .project th, td {
     border: 1px solid #000000;
+    padding: 10px;
 }
     
 /*Profile*/
