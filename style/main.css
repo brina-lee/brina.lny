@@ -274,10 +274,9 @@ header {
 }
 
 .project table {
-    width: 70%;
     border: 1px solid #000000;
     border-collapse: collapse;
-    font-size: 11px;
+    font-size: 13px;
 }
 
 .project th, td {
