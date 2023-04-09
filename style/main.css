@@ -18,6 +18,10 @@ body {
     font-family: '맑은 고딕', Arial;
 }
 
+.no_dot {
+    list-style-type: none;
+  }
+
 /*conA: 히어로이미지*/
 .conA {
     display: flex;
@@ -43,9 +47,8 @@ body {
 .conA p {
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 18px;
+    font-size: 13px;
     color: #000000;
-    font-family: 'Do Hyeon', sans-serif;
 }
 
 .conA img {
@@ -268,9 +271,6 @@ header {
     max-width: 100%
 }
 
-.no_dot {
-    list-style-type: none;
-  }
 
 /*Contact*/
 .contact {
