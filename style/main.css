@@ -258,13 +258,13 @@ header {
 
 .project h2 {
     font-size: 1.7rem;
+    margin: 18px 0;
 }
 
 .project h5 h6 {
     font-size: 1rem;
     line-height: 2;
-    margin-top: 14px;
-    margin-bottom: 14px;
+    margin: 14px 0;
 }
 
 .project p, ul, li {
@@ -274,18 +274,6 @@ header {
 
 .project img {
     max-width: 100%
-}
-
-
-@media (min-width: 768px) {
-    .project {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .headB ul {
-        display: flex;
-    }
 }
 
 /*---------------------------Profile---------------------------*/
@@ -315,6 +303,7 @@ header {
     margin-top: 0;
     text-align: center;
     font-size: 1.5rem;
+    margin: 18px 0;
 }
 
 .profiles h2 {
@@ -324,17 +313,5 @@ header {
 .profiles h5 h6 {
     font-size: 1rem;
     line-height: 2;
-    margin-top: 14px;
-    margin-bottom: 14px;
-}
-
-@media (min-width: 768px) {
-    .profile {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .headB ul {
-        display: flex;
-    }
+    margin: 14px 0;
 }
