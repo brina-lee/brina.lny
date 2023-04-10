@@ -254,8 +254,6 @@ header {
 
 .project h2 {
     padding-left: 0.2rem;
-    border-left: solid 0.4rem #000000;
-    border-left: solid 0.4rem var(--accent-color);
     font-size: 2rem;
 }
 
