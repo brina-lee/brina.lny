@@ -109,10 +109,10 @@ footer .container {
         flex-wrap: wrap;
     }
     .footA {
-        flex: 0 0 35%;
+        flex: 0 0 30%;
     }
     .footB{
-        flex: 0 0 65%;
+        flex: 0 0 70%;
     }
     .footC {
         flex: 0 0 100%;
@@ -314,4 +314,9 @@ header {
     font-size: 1rem;
     line-height: 2;
     margin: 14px 0;
+}
+
+.profiles p {
+    font-size: 0.8rem;
+    line-height: 2;
 }
