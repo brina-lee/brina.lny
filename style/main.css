@@ -23,6 +23,11 @@ body {
     padding: 0;
   }
  
+a {
+    text-decoration: none;
+    text-decoration-color: #000000;
+}
+
 /*---------------------------conA: 히어로이미지---------------------------*/
 .conA {
     display: flex;
@@ -255,7 +260,7 @@ header {
     font-size: 1.7rem;
 }
 
-.project h5 {
+.project h5 h6 {
     font-size: 1rem;
     line-height: 2;
     margin-top: 14px;
@@ -271,10 +276,6 @@ header {
     max-width: 100%
 }
 
-.project a {
-    text-decoration: none;
-    text-decoration-color: rgb(27, 102, 194);
-}
 
 @media (min-width: 768px) {
     .project {
@@ -313,11 +314,18 @@ header {
 .profiles h3 {
     margin-top: 0;
     text-align: center;
+    font-size: 1.5rem;
 }
 
-.profiles a {
-    text-decoration: none;
-    text-decoration-color: rgb(27, 102, 194);
+.profiles h2 {
+    font-size: 1.7rem;
+}
+
+.profiles h5 h6 {
+    font-size: 1rem;
+    line-height: 2;
+    margin-top: 14px;
+    margin-bottom: 14px;
 }
 
 @media (min-width: 768px) {
