@@ -22,11 +22,6 @@ body {
     list-style-type: none;
     padding: 0;
   }
-
-.a {
-    text-decoration: none;
-    text-decoration-color: rgb(27, 102, 194);
-}
  
 /*---------------------------conA: 히어로이미지---------------------------*/
 .conA {
@@ -263,17 +258,33 @@ header {
 .project h5 {
     font-size: 1rem;
     line-height: 2;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 14px;
+    margin-bottom: 14px;
 }
 
 .project p, ul, li {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     line-height: 2;
 }
 
 .project img {
     max-width: 100%
+}
+
+.project a {
+    text-decoration: none;
+    text-decoration-color: rgb(27, 102, 194);
+}
+
+@media (min-width: 768px) {
+    .project {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .headB ul {
+        display: flex;
+    }
 }
 
 /*---------------------------Profile---------------------------*/
@@ -298,7 +309,24 @@ header {
     border: solid 1px var(--gray-color);
     text-align: center;
 }
+
 .profiles h3 {
     margin-top: 0;
     text-align: center;
+}
+
+.profiles a {
+    text-decoration: none;
+    text-decoration-color: rgb(27, 102, 194);
+}
+
+@media (min-width: 768px) {
+    .profile {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .headB ul {
+        display: flex;
+    }
 }
