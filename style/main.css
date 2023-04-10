@@ -23,6 +23,10 @@ body {
     padding: 0;
   }
 
+.a {
+    text-decoration: none;
+    text-decoration-color: rgb(27, 102, 194);
+}
  
 /*---------------------------conA: 히어로이미지---------------------------*/
 .conA {
