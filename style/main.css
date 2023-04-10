@@ -253,16 +253,16 @@ header {
 }
 
 .project h2 {
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
 
-.project h6 {
+.project h5 {
     font-size: 1rem;
     line-height: 2;
 }
 
 .project p {
-    font-size: 1rem;
+    font-size: 0.7rem;
     line-height: 2;
 }
 
