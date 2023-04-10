@@ -15,7 +15,7 @@
 body {
     height: 100vh;
     margin: 0;
-    font-family: '맑은 고딕', Arial;
+    font-family: 'Noto Sans KR', Arial;
 }
 
 .no_dot {
@@ -253,7 +253,6 @@ header {
 }
 
 .project h2 {
-    padding-left: 0.2rem;
     font-size: 2rem;
 }
 
