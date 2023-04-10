@@ -128,14 +128,14 @@ footer .container {
     margin-top: 0;
     margin-bottom: 0;
     font-family: 'Bebas Neue', cursive;;
-    font-size: 30px;
+    font-size: 1.7rem;
     letter-spacing: 0.2em;
 }
 
 .footA p {
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 14px;
+    font-size: 0.8rem;
 }
 
 /*---------------------------footerB: 푸터 메뉴---------------------------*/
@@ -147,7 +147,7 @@ footer .container {
     margin-top: 0;
     margin-bottom: 10px;
     border-bottom: solid 1px currentColor;
-    font-size: 14px;
+    font-size: 0.9rem;
 }
 
 .footB ul {
@@ -160,7 +160,7 @@ footer .container {
     display: block;
     padding: 5px;
     color: inherit;
-    font-size: 12px;
+    font-size: 0.75rem;
     text-decoration: none;
 }
 
@@ -182,7 +182,7 @@ footer .container {
 
 /*---------------------------footerC: 저작권---------------------------*/
 .footC {
-    font-size: 12px;
+    font-size: 0.75rem;
     text-align: center;
     font-family: sans-serif;
     margin-top: 20px;
@@ -265,7 +265,7 @@ header {
     line-height: 2;
 }
 
-.project p {
+.project p, ul, li {
     font-size: 0.7rem;
     line-height: 2;
 }
@@ -274,17 +274,6 @@ header {
     max-width: 100%
 }
 
-.project table {
-    border: 1px solid #000000;
-    border-collapse: collapse;
-    font-size: 13px;
-}
-
-.project th, td {
-    border: 1px solid #000000;
-    padding: 10px;
-}
-    
 /*---------------------------Profile---------------------------*/
 .profile {
     margin-left: 10px;
