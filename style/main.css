@@ -176,7 +176,7 @@ footer .container {
         flex: 1;
     }
     .footB div:not(:first-child) {
-        margin-left: 40px;
+        margin-left: 25px;
     }
 }
 
