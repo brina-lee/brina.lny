@@ -276,6 +276,10 @@ header {
     max-width: 100%
 }
 
+.project hr {
+    width: 70%;
+    border: solid 1px #484848;
+}
 
 .projects h5 h6 {
     font-size: 1rem;
@@ -285,11 +289,6 @@ header {
 
 .projects img {
     max-width: 100%
-}
-
-hr {
-    width: 80%;
-    border: solid 1px #000000;
 }
 
 /*---------------------------Profile---------------------------*/
