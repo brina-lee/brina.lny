@@ -287,6 +287,11 @@ header {
     max-width: 100%
 }
 
+hr {
+    width: 80%;
+    border: solid 1px #000000;
+}
+
 /*---------------------------Profile---------------------------*/
 .profile {
     margin-left: 10px;
