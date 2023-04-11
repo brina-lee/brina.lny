@@ -15,7 +15,7 @@
 body {
     height: 100vh;
     margin: 0;
-    font-family: 'Noto Sans KR', 'Bebas Neue';
+    font-family: 'Noto Sans KR', 'Cabin';
 }
 
 .no_dot {
@@ -281,6 +281,7 @@ hr {
     border: dotted 1px #484848;
     max-width: 80%;
     margin: 10px;
+    text-align: center;
 }
 
 .projects h5 h6 {
