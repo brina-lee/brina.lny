@@ -276,6 +276,17 @@ header {
     max-width: 100%
 }
 
+
+.projects h5 h6 {
+    font-size: 1rem;
+    line-height: 2;
+    margin: 14px 0;
+}
+
+.projects img {
+    max-width: 100%
+}
+
 /*---------------------------Profile---------------------------*/
 .profile {
     margin-left: 10px;
