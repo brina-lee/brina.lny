@@ -276,7 +276,7 @@ header {
     max-width: 100%
 }
 
-.project hr {
+hr {
     width: 70%;
     border: dotted 1px #484848;
     max-width: 80%;
