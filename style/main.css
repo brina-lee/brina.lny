@@ -1,6 +1,9 @@
 @charset "UTF-8";
 
-/*---------------------------기본 색상---------------------------*/
+
+/*Mobile, Tablet, Desktop 공통 스타일-----------------------------------------------------*/
+
+/*Color Palette*/
 :root {
     --main-color: #000000;
     --accent-color: #000000;
@@ -8,10 +11,9 @@
     --text-bright-color: #ffffff;
     --dark-main-coclor: #000000;
     --gray-color: #dddddd;
-    --middle-width: 800px;
 }
 
-/*---------------------------기본 설정:페이지 전체---------------------------*/
+/*전체 페이지*/
 body {
     height: 100vh;
     margin: 0;
@@ -28,74 +30,11 @@ a {
     text-decoration-color: #000000;
 }
 
-/*---------------------------conA: 히어로이미지---------------------------*/
-.conA {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    min-height: 450px;
-    background-image: url(image/bgi.jpg);
-    background-position: center;
-    background-size: cover;
-    /*color: #ffffff;
-    color: var(--text-bright-color);*/
-    text-align: center;
-}
-.conA h1 {
-    margin-top: 10px;
-    margin-bottom: 0;
-    font-family: 'Bebas Neue', cursive;;
-    font-size: 8vw;
-    letter-spacing: 0.2em;
-    margin-left: 0.2em;
-}
-.conA p {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 11px;
-    color: #000000;
-}
 
-.conA img {
-    width: 10%;
-}
-
-.conA a {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 10px 30px;
-    border: solid 3px currentColor;
-    border-radius: 6px;
-    background-color: #bf6a7a;
-    background-color: var(--accent-color);
-    color: #ffffff;
-    color: var(--text-bright-color);
-    font-size: 18px;
-    text-decoration: none;
-}
-
-.conA a:hover {
-    background-image: linear-gradient(
-        rgba(225,225,225,0.2)
-        rgba(225,225,225,0.2)
-    );
-}
-
-@media (min-width: 768px) {
-    .conA h1 {
-        font-size: 70px;
-    }
-    .conA p {
-        font-size: 17px;
-    }
-}
-
-/*---------------------------footer---------------------------*/
+/*Desktop: footer-----------------------------------------------------*/
+/*Desktop: main footer*/
 footer {
-    color: #ffffff;
     color: var(--text-bright-color);  
-    background-color: #000000;
     background-color: var(--dark-main-coclor);
 }
 
@@ -103,23 +42,7 @@ footer .container {
     padding: 40px 20px;
 }
 
-@media (min-width: 768px) {
-    footer .container {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .footA {
-        flex: 0 0 30%;
-    }
-    .footB{
-        flex: 0 0 70%;
-    }
-    .footC {
-        flex: 0 0 100%;
-    }
-}
-
-/* footerA: 사이트 정보*/
+/*Desktop: footerA: 사이트 정보*/
 .footA {
     margin-bottom: 30px;
 }
@@ -138,7 +61,7 @@ footer .container {
     font-size: 0.8rem;
 }
 
-/*---------------------------footerB: 푸터 메뉴---------------------------*/
+/*Desktop: footerB: 푸터 메뉴*/
 .footB div {
     margin-bottom: 20px;
 }
@@ -168,6 +91,35 @@ footer .container {
     background-color: rgba(0,0,0,0.3);
 }
 
+/*Desktop: footerC: 저작권*/
+.footC {
+    font-size: 0.75rem;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+/*Mobile: footer-----------------------------------------------------*/
+
+/*Mobile: main footer*/
+@media (min-width: 768px) {
+    footer .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footA {
+        flex: 0 0 30%;
+    }
+    .footB{
+        flex: 0 0 70%;
+    }
+    .footC {
+        flex: 0 0 100%;
+    }
+}
+
+/**Mobile: footerB: 푸터 메뉴*/
 @media (min-width: 768px) {
     .footB {
         display: flex;
@@ -180,16 +132,8 @@ footer .container {
     }
 }
 
-/*---------------------------footerC: 저작권---------------------------*/
-.footC {
-    font-size: 0.75rem;
-    text-align: center;
-    font-family: sans-serif;
-    margin-top: 20px;
-    margin-bottom: 0;
-}
-
-/*---------------------------header---------------------------*/
+/*Desktop: header---------------------------*/
+/*Desktop: main header*/
 header {
     position: absolute;
     top: 0;
@@ -198,13 +142,13 @@ header {
     width: 100%;
 }
 
-.nohero header {
+.headermenu header {
     position: static;
     border-bottom: solid 1px #ddd;
     border-bottom: solid 1px var(--gray-color);
 }
 
-/*---------------------------hearderA: 사이트 이름---------------------------*/
+/*Desktop: hearderA: 사이트명*/
 .headA {
     display: inline-block;
     line-height: 40px;
@@ -217,7 +161,7 @@ header {
 }
 
 
-/*---------------------------headerB: 내비게이션 메뉴---------------------------*/
+/*Desktop: headerB: 내비게이션 메뉴*/
 .headB ul {
     margin: 0;
     padding: 0;
@@ -236,6 +180,8 @@ header {
     background-color: rgba(0,0,0,0.3);
 }
 
+/*Mobile: headerB: 내비게이션 메뉴*/
+
 @media (min-width: 768px) {
     header .container {
         display: flex;
@@ -247,11 +193,72 @@ header {
     }
 }
 
-/*---------------------------Project---------------------------*/
+
+/*Desktop: index 페이지-----------------------------------------------------*/
+.index {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    min-height: 450px;
+    background-image: url(image/bgi.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.index h1 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-family: 'Bebas Neue', cursive;;
+    font-size: 8vw;
+    letter-spacing: 0.2em;
+    margin-left: 0.2em;
+}
+/*.index p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 11px;
+    color: #000000;
+}
+
+.index img {
+    width: 10%;
+}
+
+.index a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 30px;
+    border: solid 3px currentColor;
+    border-radius: 6px;
+    background-color: #bf6a7a;
+    background-color: var(--accent-color);
+    color: #ffffff;
+    color: var(--text-bright-color);
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.index a:hover {
+    background-image: linear-gradient(
+        rgba(225,225,225,0.2)
+        rgba(225,225,225,0.2)
+    );
+}*/
+
+/*Mobile: index 페이지*/
+@media (min-width: 768px) {
+    .index h1 {
+        font-size: 70px;
+    }
+    .index p {
+        font-size: 17px;
+    }
+}
+
+/*Desktop: career, project 페이지-----------------------------------------------------*/
 .project .container {
     padding: 30px 10px;
-    max-width: 600px;
-    max-width: var(--middle-width);
     margin-left: auto;
     margin-right: auto;
 }
@@ -273,7 +280,7 @@ header {
 }
 
 .project img {
-    max-width: 100%
+    max-width: 1000px;
 }
 
 hr {
@@ -289,10 +296,10 @@ hr {
 }
 
 .projects img {
-    max-width: 100%
+    max-width: 1000px;
 }
 
-/*---------------------------Profile---------------------------*/
+/*Desktop: profile 페이지-----------------------------------------------------*/
 .profile {
     margin-left: 10px;
     margin-right: 10px;
