@@ -259,11 +259,8 @@ header {
 
 /*Desktop: career, project 페이지-----------------------------------------------------*/
 
-.project {
-    margin: 0 auto;
-}
-
 .projects {
+    margin: auto;
     padding: 30px 10px;
     max-width: var(--middle-width);
     margin-left: auto;
