@@ -258,14 +258,17 @@ header {
 }
 
 /*Desktop: career, project 페이지-----------------------------------------------------*/
+
+.project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .project .container {
     padding: 30px 10px;
     max-width: var(--middle-width);
     margin-left: auto;
     margin-right: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .project h2 {
