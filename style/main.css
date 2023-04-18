@@ -260,8 +260,7 @@ header {
 /*Desktop: career, project 페이지-----------------------------------------------------*/
 
 .project {
-    display: flex;
-    justify-content: center;
+    margin: 0 auto;
 }
 
 .projects {
@@ -283,14 +282,14 @@ header {
 
 
 .projects h5 h6 {
-    align-self: flex-start;
+    text-align: left;
     font-size: 1rem;
     line-height: 2;
     margin: 14px 0;
 }
 
 .projects p, ul, li {
-    align-self: flex-start;
+    text-align: left;
     font-size: 0.8rem;
     line-height: 2;
 }
@@ -314,7 +313,7 @@ hr {
     padding: 20px;
 }
 
-.contact {
+.contacts {
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 20px;
