@@ -276,6 +276,7 @@ header {
 .projects h4 {
     font-size: 1.3rem;
     margin: 12px 0;
+    text-align: left;
 }
 
 
@@ -293,7 +294,7 @@ header {
 }
 
 .projects img {
-    max-width: 90%
+    max-width: 100%
 }
 
 hr {
@@ -309,6 +310,7 @@ hr {
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 20px;
+    text-align: center;
 }
 
 .contacts {
@@ -320,24 +322,25 @@ hr {
     text-align: center;
 }
 
-.profile h3 {
-    margin-top: 0;
-    text-align: center;
-    font-size: 1.5rem;
-    margin: 18px 0;
-}
-
 .profile h2 {
     font-size: 1.7rem;
 }
 
-.profile h5 h6 {
+.profile h4 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    margin: 18px 0;
+    text-align: left;
+}
+
+.profile h5 {
     font-size: 1rem;
     line-height: 2;
     margin: 14px 0;
 }
 
-.profile p {
+.profile p, ul, li {
+    text-align: left;
     font-size: 0.8rem;
     line-height: 2;
 }
