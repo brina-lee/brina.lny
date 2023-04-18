@@ -133,7 +133,7 @@ footer .container {
     }
 }
 
-/*Desktop: header---------------------------*/
+/*Desktop: header------------------------------------------------------*/
 /*Desktop: main header*/
 header {
     position: absolute;
@@ -263,6 +263,9 @@ header {
     max-width: var(--middle-width);
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .project h2 {
