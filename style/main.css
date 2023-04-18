@@ -265,7 +265,6 @@ header {
 }
 
 .projects {
-    display: inline-block;
     padding: 30px 10px;
     max-width: var(--middle-width);
     margin-left: auto;
@@ -276,6 +275,12 @@ header {
     font-size: 1.7rem;
     margin: 18px 0;
 }
+
+.projects h4 {
+    font-size: 1.3rem;
+    margin: 12px 0;
+}
+
 
 .projects h5 h6 {
     align-self: flex-start;
@@ -309,7 +314,7 @@ hr {
     padding: 20px;
 }
 
-.profiles {
+.contact {
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 20px;
@@ -318,24 +323,24 @@ hr {
     text-align: center;
 }
 
-.profiles h3 {
+.profile h3 {
     margin-top: 0;
     text-align: center;
     font-size: 1.5rem;
     margin: 18px 0;
 }
 
-.profiles h2 {
+.profile h2 {
     font-size: 1.7rem;
 }
 
-.profiles h5 h6 {
+.profile h5 h6 {
     font-size: 1rem;
     line-height: 2;
     margin: 14px 0;
 }
 
-.profiles p {
+.profile p {
     font-size: 0.8rem;
     line-height: 2;
 }
